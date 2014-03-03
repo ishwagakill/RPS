@@ -6,9 +6,9 @@ print "Choose: rock, paper, scissors"
 uChoice = raw_input("> ")
 
 cpuChoice = random.random()
-if cpuChoice < 1.0 and cpuChoice > (2/3):
+if cpuChoice < 1.0 and cpuChoice > (2.0 / 3.0):
 	cpuChoice = 'rock'
-elif cpuChoice <= (2/3) and cpuChoice > (1/3):
+elif cpuChoice <= (2.0 / 3.0) and cpuChoice > (1.0 / 3.0):
 	cpuChoice = 'paper'
 else:
 	cpuChoice = 'scissors'
